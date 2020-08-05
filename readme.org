@@ -1,0 +1,11 @@
+* Run
+** Configuration
+*** config.py
+#+begin_src python
+KeyId = 'whatever'
+#+end_src
+** Docker
+~docker run --name b3mg -v /home/chli4934/ubCodeLab/volumeb3_data:/data -p 27017:27017 -itd mongo~
+
+
+
